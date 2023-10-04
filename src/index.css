@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body
+{
+    background-color: #176B87;
+}
+.log
+{
+    background-color: #04364A;
+}
+input{
+    padding: 5px;
+}
+
+input:focus
+{
+    outline: 1px solid slateblue;
+}
+
+button:focus
+{
+    outline: none;
+    opacity: 0.8;
+}
+
+.welcome
+{
+    margin-top: -200px;
+}
